@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+* {
+    font-family: 'Bangers';
+    color: orange;
+    letter-spacing: 4px;
+    font-weight: 600px;
+    word-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #title, #title-info, #img-caption, #a-link, #second-header {
+    text-align: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    background: black;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+  #title {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+  }
+  #title-info {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  #img-div {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-caption {
+    padding-top: 5px;
+    padding-bottom: -4px;
+  }
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+  }
+  ul {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    text-align: justify;
+  }
+  li{
+    line-height: 40px;
+    font-weight: 500;
+  }
+  #second-header {
+    margin-top: 20px;
+  }
+  #line {
+    width: 30%;
+    height: 2px;
+    background-color: #330000;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+  }
+  #a-link { 
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  a {
+    font-style: italic;
+  }
+  @media all and (max-width: 600px) {
+    #img-div {
+      padding: 3px;
+    }
+    #tribute-info{
+      width: 80%;
+    }
+    #title {
+      font-size: 2em;
+    }
+  }
+  @media all and (max-width: 320px){
+    * {
+      word-spacing: none;
+      letter-spacing: none;
+    }
+    #title {
+      font-size: 1.5em;
+    }
+    
+  }
